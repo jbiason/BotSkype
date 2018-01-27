@@ -32,3 +32,11 @@ class SkypePing(SkypeEventLoop):
             event.msg.chat.sendFile(open("/home/smachado/Pictures/xeroque.jpg", "rb"), "xeroque.jpg", image=True)
         elif "upupup" in event.msg.content:
             event.msg.chat.sendMsg('up\n'*20)
+        elif event.msg.content == "modinha":
+            event.msg.chat.sendMsg('Meu pau na tua rodinha!')
+        elif "porra" in event.msg.content:
+            event.msg.chat.sendMsg('Porra é o cu da cachorra!')
+        elif event.msg.content == 'oloco':
+            event.msg.chat.sendMsg('Meu pau no teu boco')
+        elif event.msg.content == 'cachorra morreu teu cu é meu':
+            event.msg.chat.sendMsg('Isso aí não é resposta, senta aqui que arranco bosta!')

@@ -1,5 +1,5 @@
 from botClass import SkypePing
-sk = SkypePing('silvinho485@gmail.com', '$Ilvio141091') # connect to Skype
+sk = SkypePing('email', 'senha') # connect to Skype
 
 sk.user # you
 sk.contacts # your contacts
